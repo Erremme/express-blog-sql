@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 //Importo il prefisso delle rotte e le rotte
-app.use("/prodotti", productsRouter);
+app.use("/posts", productsRouter);
 
 //Middleware per rotte non trovate
 app.use(notFound);
